@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Steam login information, replace with your info
-STEAMUSERNAME=username
-STEAMPASSWORD=password
+STEAMUSERNAME=$1
+STEAMPASSWORD=$2
 
 cd /home
 mkdir starbound
