@@ -6,7 +6,6 @@ STEAMPASSWORD=$2
 
 cd /home
 mkdir starbound
-mkdir murmur
 cd starbound
 apt-get update
 # install necessary starbound dependency
@@ -22,13 +21,6 @@ sh update_starbound.sh
 # we sleep for 45 seconds, depending on steam load we need to wait to start server after install is compelte
 sleep 45
 cd /home/starbound/server
-cd /home/murmur
-# install necessary library for mumble server
-apt-get -y install libicu48
-# install mumble server
-apt-get -y install mumble-server
-# start the mumble server aka murmur
-murmurd
 cd /home/starbound/server/linux64
 # start starbound in a detached screen session
 screen -S starbound -d -m ./starbound_server
