@@ -68,7 +68,7 @@ as to what screen is, look here. http://www.tecmint.com/screen-command-examples-
 ![play]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/play.png "Play")
 
 11. When you are done playing, you can remove the linode and only get billed for the amt of time you used. This makes
-it pretty cost effective even when you are playing with a large group of people. To remove just click 'remote' from 
+it pretty cost effective even when you are playing with a large group of people. To remove just click 'remove' from 
 the screen below.
 ![remove]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/remove.png "Remove")
 
