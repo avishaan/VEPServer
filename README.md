@@ -72,3 +72,6 @@ it pretty cost effective even when you are playing with a large group of people.
 the screen below.
 ![remove]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/remove.png "Remove")
 
+
+This thread helped me set this up. http://www.reddit.com/r/starbound/comments/1s3rdp/how_to_linux_dedicated_server_setup/
+
