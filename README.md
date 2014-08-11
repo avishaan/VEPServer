@@ -48,17 +48,17 @@ just click on "Launch Lish AJAX console" instead. I will use the Lish console on
 Your login is likely 'root' and the password is whatever you set in step 4
 ![remote]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/remote.png "Remote Access")
 
-7. Download the script file by doing 'wget https://raw.githubusercontent.com/codeHatcher/VEPServer/master/StackScript.sh'
+7. Download the script file by doing `wget https://raw.githubusercontent.com/codeHatcher/VEPServer/master/StackScript.sh`
 It looks a little wonky in the screenshot due to the word wrap that occurs on the Lish ssh window.
 ![wget]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/wget.png "Wget")
 
-8. run "sh StackScript.h steamuser steampassword" where 'steamuser' and 'steampassword' are your steam username login and password.
+8. run `sh StackScript.h steamuser steampassword` where 'steamuser' and 'steampassword' are your steam username login and password.
 This is necessary has the server is installed from steam after having the steam client log in. After you hit enter you will see
 the following. **Note:** Sometimes steam doesn't log in for whatever reason. If you see that happen to you just run the command
 from this step again.
 ![install]( https://raw.githubusercontent.com/codeHatcher/VEPServer/master/img/install.png "Install")
 
-9. Check the install. type "screen -list". If you see 'starbound' in a detached state. Then congrats! You are done. Use the same address
+9. Check the install. type `screen -list`. If you see 'starbound' in a detached state. Then congrats! You are done. Use the same address
 shown in the step where you access the remote access settings and you are good to go. Screen just allows you to have a terminal
 process in another window that you can access later. Chances are you don't need to know anything about this. If you are curious
 as to what screen is, look here. http://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/
