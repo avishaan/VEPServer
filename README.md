@@ -14,9 +14,9 @@ friends can play.
 ####Tested Installs?
 If you install on a flavor that hasn't been tested, let me know in the issues or
 fork and update this script.
-| Linux Flavor           |  Working Status |
-|------------------------|--------------|
-| Ubuntu 14.04 LTS 64bit |   Working |
+Linux Flavor           |  Working Status
+------------------------|--------------
+Ubuntu 14.04 LTS 64bit |   Working
 
 ####How do I do this? (Step By Step)
 First, go to https://www.linode.com/?r=9c1631b4c816495758ee7c83a24262f50246d771 and
