@@ -26,5 +26,3 @@ cd /home/starbound/server
 cd /home/starbound/server/linux64
 # start starbound in a detached screen session
 screen -S starbound -d -m ./starbound_server
-# install htop so you can see cpu utilization and decide if you need a bigger server
-apt-get -y install htop
