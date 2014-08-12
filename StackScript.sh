@@ -10,6 +10,8 @@ cd starbound
 apt-get update
 # install necessary starbound dependency
 apt-get -y install lib32gcc1
+# install screen dependency
+apt-get -y install screen
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
 tar -xvzf steamcmd_linux.tar.gz
 # make a 'update starbound' file
