@@ -12,7 +12,9 @@ apt-get update
 apt-get -y install lib32gcc1
 # install screen dependency
 apt-get -y install screen
+# get the steam for linux install file
 wget http://media.steampowered.com/client/steamcmd_linux.tar.gz
+# unzip the linux install file
 tar -xvzf steamcmd_linux.tar.gz
 # make a 'update starbound' file
 touch update_starbound.sh
